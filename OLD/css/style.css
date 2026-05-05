@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url('../foto/foto1.jpg');
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#navegacao {
+  display:inline-block;    
+}
+
+header {
+  border-radius: 25px;
+  position: static;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+h3 {
+  color: #88EB49;
+}
+
+nav {
+  border-radius: 25px;
+  width: 22%;
+  line-height: 40px;
+  text-align: left;
+  margin: 10px;
+  background: #4E733D;
+  padding: 5px;    
+}
+
+nav h3 {
+  text-align: center;
+}
+
+#links a:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#A37C58;
+}
+
+#redes a:hover {
+  color:#A37C58;
+}
+
+nav a {
+  color: #EB9049;
+}
+
+main {
+  position: static;
+  padding-bottom: ;
+ 
+
+			padding: 0px 20px 20px 10px;
+
+			}
+
+			p {
+
+			color: #7C5127	
+			}
+
+			footer p {
+			font-size: 18px;
+			color:#EB9049 	
+			}
+			
+			#imagem1 {
+			position: static;
+			margin-bottom: -50px;
+			width: 650px;
+			height: 680px;
+			padding: 60px;
+			}
+
+			#essencis {
+			position: static;
+			margin: 40px;
+			padding: 20px;
+			}
+
+			#paragrafo1 {
+			position: static;
+			margin: 0px;
+		 	font-size: 15px;
+		 	text-align: left;
+
+			}
+
+			#pagina {
+			padding-top: 10px;
+			}
+
+			#pagina2 {
+			position: static;
+			padding-top: 10px;
+			line-height: 32px;
+
+			}
+
+			video	{
+			border-radius: 10px;
+			
+			
+			}
+
+			#pagina3 {
+			position: static;
+			padding-top: 10px;
+			line-height: 32px;
+			}
+
+			nav ul {	  
+
+			  margin-top: -20%;
+			  list-style-type: none;
+			  color: #019587;
+			}
+
+			article {
+			  border-radius: 25px;
+			  position: relative;
+			  margin-top: -550px;
+			  margin-left: auto;
+			  padding: 120px;
+			  width: 75%;
+			  
+			  
+			  background-color: #E5E553;
+			}
+			
+			section: {
+			  background: #ccc;
+			  display: table;
+			  clear: both;
+			}
+
+			
+			footer {
+			position: static;
+			margin-left: -8px;
+			bottom: 0;
+			width: 100%;
+			background-color:#28402E;
+			text-align: center;
+			padding-top: 35px;
+			padding-bottom: 35px;
+			font-size: 13px;	
+			color: #DBF227;		
+			}
+            
+            .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+             }
+
+            .whatsapp-button:hover {
+            background-color: #1da851;
+            box-shadow: 0px 15px 20px rgba(46,229,157,0.4);
+            color: white;
+            transform: translateY(-7px);
+            }
+
+            .whatsapp-button span {
+            display:inline-block; 
+            margin-left:.3em; 
+            transition:.4s
+            }
+      
+            .whatsapp-button:hover span {
+            transform:translateX(.5em)
+            }
+            
+            
+            
+            
+            
+            
+			form {
+			position: static;
+			margin-left:10px;
+			line-height: 30px;
+
+			}
+
+			input {
+			border-radius: 10px;
+			width: 60%;
+			height: 35px;
+
+			}
+
+			textarea {
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-left: 10px;
+			width: 400px;
+			}
+
+			#enviar {
+			margin-top: 60px;
+			margin-bottom: 100px;
+
+			}
+
+
+			
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}

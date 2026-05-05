@@ -1,0 +1,15 @@
+*
+
+.logo {
+filter: drop-shadow(8px 6px 12px rgb(8, 2, 2));
+}
+
+.video {
+filter: drop-shadow(8px 6px 10px #333);
+
+}
+
+.tnav {
+filter: drop-shadow(8px 6px 10px rgb(5, 2, 2));
+
+}
