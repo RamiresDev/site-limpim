@@ -1,0 +1,144 @@
+.regioes-section {
+  background: #f7faf8;
+}
+
+.regioes-map {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.regioes-map img {
+  width: 100%;
+  display: block;
+}
+
+.regioes-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2d2a;
+  margin-bottom: 16px;
+}
+
+.regioes-subtitle {
+  color: #5f6f6a;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.regioes-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.regiao-btn {
+  border: none;
+  background: #00a859;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.25s ease;
+  box-shadow: 0 10px 24px rgba(0, 168, 89, 0.22);
+}
+
+.regiao-btn:hover {
+  background: #008f4f;
+  transform: translateY(-2px);
+}
+
+.regiao-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.58);
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.regiao-modal.active {
+  display: flex;
+}
+
+.regiao-modal-box {
+  width: 100%;
+  max-width: 640px;
+  max-height: 82vh;
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.25);
+}
+
+.regiao-modal-header {
+  background: #00a859;
+  color: #fff;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.regiao-modal-header h4 {
+  color: #fff;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.regiao-modal-close {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 34px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.regiao-modal-body {
+  padding: 24px;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.modal-cidades-lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 18px;
+}
+
+.modal-cidades-lista span {
+  color: #263b35;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #edf2ef;
+  padding-bottom: 8px;
+}
+
+@media (max-width: 991px) {
+  .regioes-content {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  .regioes-title {
+    font-size: 28px;
+  }
+
+  .modal-cidades-lista {
+    grid-template-columns: 1fr;
+  }
+
+  .regiao-modal-box {
+    max-height: 86vh;
+  }
+}
