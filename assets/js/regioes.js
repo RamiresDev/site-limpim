@@ -9,12 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "Carlos Chagas",
         "Catuji",
         "Crisólita",
+        "Franciscópolis",
         "Frei Gaspar",
         "Fronteira dos Vales",
-        "Itambacuri",
         "Ladainha",
         "Machacalis",
         "Malacacheta",
+        "Mucuri (distrito de T. Otoni)",
         "Nanuque",
         "Novo Oriente de Minas",
         "Ouro Verde de Minas",
@@ -36,8 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "Berilo",
         "Capelinha",
         "Caraí",
+        "Diamantina",
         "Felisburgo",
         "Francisco Badaró",
+        "Itamarandiba",
         "Itaobim",
         "Itinga",
         "Jacinto",
@@ -46,10 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "Jordânia",
         "Medina",
         "Minas Novas",
+        "Novo Cruzeiro",
         "Padre Paraíso",
         "Palmópolis",
         "Pedra Azul",
         "Ponto dos Volantes",
+        "Presidente Kubitschek",
         "Rio do Prado",
         "Rubim",
         "Santa Maria do Salto",
@@ -61,7 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
     riodoce: {
       titulo: "Vale do Rio Doce",
       cidades: [
+        "Água Boa",
         "Alpercata",
+        "Bugre",
         "Campanário",
         "Caratinga",
         "Central de Minas",
@@ -75,17 +82,23 @@ document.addEventListener("DOMContentLoaded", function () {
         "Galiléia",
         "Goiabeira",
         "Governador Valadares",
+        "Guanhães",
         "Iapu",
         "Inhapim",
         "Ipaba",
+        "Ipanema",
         "Ipatinga",
         "Itabirinha",
+        "Itambacuri",
         "Itanhomi",
         "Jampruca",
-        "João Monlevade",
+        "José Raydan",
+        "Mantena",
+        "Mathias Lobato",
         "Mendes Pimentel",
         "Mutum",
         "Nova Módica",
+        "Peçanha",
         "Pescador",
         "Piedade de Caratinga",
         "Resplendor",
@@ -94,6 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "São Geraldo do Baixio",
         "São João do Manteninha",
         "São José do Divino",
+        "São Sebastião do Maranhão",
         "Sardoá",
         "Sobrália",
         "Tarumirim",
@@ -106,6 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
       titulo: "Zona da Mata",
       cidades: [
         "Além Paraíba",
+        "Barbacena",
         "Carangola",
         "Cataguases",
         "Coimbra",
@@ -132,25 +147,14 @@ document.addEventListener("DOMContentLoaded", function () {
     central: {
       titulo: "Região Central",
       cidades: [
-        "Água Boa",
-        "Barbacena",
-        "Bugre",
         "Congonhas",
-        "Diamantina",
-        "Guanhães",
         "Itabira",
-        "Itamarandiba",
-        "José Raydan",
-        "Lavras",
         "Mariana",
         "Nova Era",
         "Ouro Branco",
         "Ouro Preto",
-        "Peçanha",
-        "Presidente Kubitschek",
         "São Domingos da Prata",
         "São João del-Rei",
-        "São Sebastião do Maranhão",
         "Senhora de Oliveira",
         "Tiradentes"
       ]
@@ -161,9 +165,28 @@ document.addEventListener("DOMContentLoaded", function () {
       cidades: [
         "Belo Horizonte",
         "Betim",
-        "Iguatama"
+        "João Monlevade"
       ]
+    },
+
+    norte: {
+      titulo: "Norte de Minas",
+      cidades: [
+        "São João das Missões"
+      ]
+    },
+
+    sul: {
+      titulo: "Sul de Minas",
+      cidades: ["Lavras"]
+    },
+
+    centroOeste: {
+      titulo: "Centro-Oeste",
+      cidades: ["Iguatama"] 
     }
+
+
   };
 
   const botoes = document.querySelectorAll(".regiao-btn");
