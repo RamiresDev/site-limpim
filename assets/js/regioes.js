@@ -176,17 +176,6 @@ document.addEventListener("DOMContentLoaded", function () {
       ]
     },
 
-    sul: {
-      titulo: "Sul de Minas",
-      cidades: ["Lavras"]
-    },
-
-    centroOeste: {
-      titulo: "Centro-Oeste",
-      cidades: ["Iguatama"] 
-    }
-
-
   };
 
   const botoes = document.querySelectorAll(".regiao-btn");
