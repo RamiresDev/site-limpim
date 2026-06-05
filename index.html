@@ -604,6 +604,7 @@ document.addEventListener("DOMContentLoaded", function () {
     link.addEventListener("click", function (event) {
 
         const origem = link.getAttribute("data-origem") || "desconhecido";
+        fbq('track', 'Lead');
 
         console.log("Clique WhatsApp:", origem);
 
