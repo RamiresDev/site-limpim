@@ -33,11 +33,6 @@ $(function () {
     // Global variables
     var $win = $(window);
 
-    /*==========  Pre Loading   ==========*/
-    setTimeout(function () {
-        $(".preloader").remove();
-    }, 2000);
-
     /*==========   Mobile Menu   ==========*/
     $('.navbar-toggler').on('click', function () {
         $('.navbar-collapse').addClass('menu-opened');
