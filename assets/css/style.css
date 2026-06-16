@@ -8553,6 +8553,17 @@ textarea.form-control {
         height: 8px;
         border-width: 2px;
     }
+
+    .services-layout2 .service-item .service__img {
+        aspect-ratio: 540 / 675;
+    }
+
+    .services-layout2 .service-item .service__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
 }
 
 /* Mobile Phones and tablets */
