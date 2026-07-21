@@ -655,7 +655,7 @@ select {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1333px){
+@media (min-width: 1200px) and (max-width: 1399.98px){
     .contact__number{
         display: none !important;
     }
